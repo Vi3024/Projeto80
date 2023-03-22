@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ProjetoC80</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h2>Lista de convidados</h2>
+            <input type="text" placeholder="Insira o nome" id="name1">
+            <button onclick="submit()" id="submitButton">
+                Enviar
+            </button>
+            <br><br>
+            <hr>
+        <div id="displayName" style="font-weight: bold;"></div>
+            <hr>
+            <h2>Lista de convidados</h2>
+            <button onclick="show()" id="showButton">
+                Mostrar
+            </button>
+            <br><br>
+            <div id="displayName2" style="font-weight: bold;"></div>
+            <br>
+            <hr>
+            <br>
+            <button onclick="sorting()" id="sortButton" >
+                Lista organizada
+            </button>
+            <br><br>
+            <div id="displayName3" style="font-weight: bold;"></div>
+            <br>
+            <hr>
+            <br>
+            <input type="text" placeholder="Pesquisar nome" id="s1">
+            <button onclick="searching()" id="searchButton">
+                Pesquisar
+            </button>
+
+            <h3 id="p2"></h3>
+
+            <div id="displayNameWithoutCommas">
+            </div>
+        </center>
+    </body>
+</html>
